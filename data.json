@@ -1,0 +1,123 @@
+[
+	{
+		"model": "yt_coding_note_api.codeFile",
+		"fields": {
+			"id": "default",
+			"fileId": "d0001",
+			"content": "This is the default file\nTime=0s"
+		}
+	},
+	{
+		"model": "yt_coding_note_api.codeFile",
+		"fields": {
+			"id": "default-20",
+			"fileId": "d0001",
+			"content": "This is the default file\nTime=20s"
+		}
+	},
+	{
+		"model": "yt_coding_note_api.codeFile",
+		"fields": {
+			"id": "default-40",
+			"fileId": "d0001",
+			"content": "This is the default file\nTime=40s"
+		}
+	},
+	{
+		"model": "yt_coding_note_api.codeFile",
+		"fields": {
+			"id": "default-60",
+			"fileId": "d0001",
+			"content": "This is the default file\nTime=60s"
+		}
+	},
+	{
+		"model": "yt_coding_note_api.codeFile",
+		"fields": {
+			"id": "default-2-0",
+			"fileId": "d0002",
+			"content": "This is the default file\nTime=0s"
+		}
+	},
+	{
+
+		"model": "yt_coding_note_api.video",
+		"pk": 1,
+		"fields": {
+			"videoId": "M7lc1UVf-VE",
+			"fileStruct": {
+				"0": {
+					"/": {
+						"id": "/",
+						"type": "root",
+						"parent":"",
+						"subDirs": ["f0001"]
+					},
+					"d0001": {
+						"id": "d0001",
+						"type": "file",
+						"name": "default",
+						"itemId": "default",
+						"parent": "f0001"
+					},
+					"d0002": {
+						"id": "d0002",
+						"type": "file",
+						"name": "default-2",
+						"itemId": "default-2-0",
+						"parent": "f0001"
+					},
+					"f0001": {
+						"id": "f0001",
+						"type": "folder",
+						"name": "src",
+						"parent": "/",
+						"subDirs": ["d0001", "d0002", "f0002"]
+					},
+					"f0002": {
+						"id": "f0002",
+						"type": "folder",
+						"name": "app",
+						"parent": "f0001", "subDirs": []
+					}
+				},
+				"20": {
+					"/": {
+						"id": "/",
+						"type": "root",
+						"parent": "",
+						"subDirs": ["f0001"]
+					},
+					"d0001": {
+						"id": "d0001",
+						"type": "file",
+						"name": "default",
+						"itemId": "default-20",
+						"parent": "f0001"
+					},
+					"d0002": {
+						"id": "d0002",
+						"type": "file",
+						"name": "default-2",
+						"itemId": "default-2-0",
+						"parent": "f0001"
+					},
+					"f0001": {
+						"id": "f0001",
+						"type": "folder",
+						"name": "src",
+						"parent": "/",
+						"subDirs": ["d0001", "d0002", "f0002"]
+					},
+					"f0002": {
+						"id": "f0002",
+						"type": "folder",
+						"name": "app",
+						"parent": "f0001",
+						"subDirs": []
+					}
+				}
+			}
+		}
+	}	
+]	
